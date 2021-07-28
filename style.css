@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Fraunces:wght@700;900&display=swap');
+
+* {
+    /* border: solid 1px black; */
+    margin: 0;
+}
+
+html {
+    Font-size: 18px;
+    font-family: 'Barlow';
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    text-transform: uppercase;
+    display:table-cell;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 400;
+}
+
+button {
+    padding: 0.75em 1.5em;
+    border-radius: 2em;
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+}
+
+.Fraunces-font {
+    font-family: 'Fraunces';
+}
+
+.we-are-creatives {
+    height: 100vh;
+    background-image: url("images/desktop/image-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.navbar {
+    color: #ffffff;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    width: 95%;
+    left: 2.5%;
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.container {
+    height: 60vh;
+    display: table;
+    width: 100%;
+}
