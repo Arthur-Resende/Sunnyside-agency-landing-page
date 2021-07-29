@@ -22,7 +22,6 @@ h1 {
 h2 {
     font-size: 2.25rem;
     line-height: 1.25em;
-    margin: 0.75em 0em;
 }
 
 a {
@@ -69,6 +68,18 @@ button {
 
 .full-width {
     width: 100%;
+}
+
+.page-text {
+    color: #5A636C;
+}
+
+.darker-text {
+    color: #23303E;
+}
+
+.lighter-text {
+    color: #A7ABAE;
 }
 
 /* navbar section style */
@@ -129,12 +140,11 @@ button {
     top: 21.5%;
     width: 62.5%;
     line-height: 1.75em;
-    color: #5A636C;
     font-weight: 400;
 }
 
-.gallery-darker-text {
-    color: #23303E;
+.gallery-title {
+    margin: 0.75em 0em;
 }
 
 .text-item {
@@ -171,6 +181,7 @@ button {
 
 .last-row-title {
     font-size: 1.5rem;
+    margin: 0.75em 0em;
 }
 
 .design-text {
@@ -179,6 +190,55 @@ button {
 
 .photography-text {
     color: #19536B;
+}
+
+/* Testimonials style */
+
+.testimonials {
+    height: 100vh;
+    background-color: #fffbf8;
+}
+
+.testimonials-container {
+    position: relative;
+    top: 23%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.reviews {
+    margin: 7% auto;
+    display: flex;
+    justify-content: center;
+}
+
+.individual-review {
+    width: 30.5%;
+    margin: 0 1%;
+    text-align: center;
+}
+
+.review-image {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.review-text {
+    margin-top: 15%; 
+    line-height: 1.75em;
+}
+
+.review-name {
+    margin-top: 20%;
+}
+
+.testimonials-title {
+    letter-spacing: 0.2em;
+}
+
+.review-position {
+    font-size: 13px;
+    font-weight: 400;
 }
 
 /* special items */
