@@ -98,15 +98,16 @@ button {
     width: 35%;
 }
 
-.logo img {
+.logo img{
     width: 150px;
+    height: auto;
 }
-
-/* we are creatives section style */
-
-.we-are-creatives {
-    height: 100vh;
-    background-image: url("images/desktop/image-header.jpg");
+    
+    /* we are creatives section style */
+    
+    .we-are-creatives {
+        height: 100vh;
+        background-image: url("images/desktop/image-header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -224,7 +225,7 @@ button {
 }
 
 .review-text {
-    margin-top: 15%; 
+    margin-top: 15%;
     line-height: 1.75em;
 }
 
@@ -239,6 +240,57 @@ button {
 .review-position {
     font-size: 13px;
     font-weight: 400;
+}
+
+/* footer section */
+
+.footer {
+    /* height: 100vh; */
+    background-color: #90d5c4;
+    color: #458C7E;
+}
+
+.footer-gallery {
+    display: flex;
+}
+
+.footer-images {
+    width: 25%;
+}
+
+.footer-logo {
+    margin: 5% auto 0% auto;
+    width: fit-content;
+}
+
+.footer-logo img {
+    width: 150px;
+}
+
+.footer-links-list {
+    margin: 2.25em 0em 0em 0em;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.footer-links-list li {
+    display: inline-block;
+    margin: 0px 1.5em;
+}
+
+.Contact {
+    display: flex;
+    justify-content: center;
+    margin: 5em auto 3em auto;
+}
+
+.contact-link {
+    margin: 0em 0.75em;
+}
+
+.contact-link img {
+    width: 17px;
 }
 
 /* special items */
