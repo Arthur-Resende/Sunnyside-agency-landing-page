@@ -5,7 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/navbar.css">
+  <link rel="stylesheet" href="styles/we-are-creatives.css">
+  <link rel="stylesheet" href="styles/gallery.css">
+  <link rel="stylesheet" href="styles/testimonials.css">
+  <link rel="stylesheet" href="styles/footer.css">
   
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
@@ -23,7 +29,12 @@
     <div class="flex vertical-center logo">
       <img src="images/logo.svg" alt="sunnyside logo" />
     </div>
-    <div class="navlinks flex vertical-center">
+    <div class="navtoggle vertical-center">
+      <div class="horizontal-line"></div>
+      <div class="horizontal-line"></div>
+      <div class="horizontal-line"></div>
+    </div>
+    <div class="navlinks flex vertical-center hide">
       <a href="#">About</a>
       <a href="#">Services</a>
       <a href="#">Projects</a>
@@ -56,17 +67,17 @@
         <a href="#" target="_blank" rel="noopener">
           <div class="learn-more-container">
             <p class="Fraunces-font uppercase bold learn-more darker-text">Learn more</p>
-            <div id="left-underline" class="learn-more-underline"></div>
+            <div id="left-underline" class="learn-more-underline full-width"></div>
           </div>
         </a>
       </div>
     </div>
 
-    <div class="gallery-image gallery-item" id="egg"></div>
+    <div class="gallery-image gallery-item full-width" id="egg"></div>
 
 <!-- second row -->
 
-    <div class="gallery-image gallery-item" id="wine"></div>
+    <div class="gallery-image gallery-item full-width" id="wine"></div>
 
     <div class="text-item">
       <div class="gallery-text page-text" id="text-right">
@@ -78,7 +89,7 @@
         <a href="#" target="_blank" rel="noopener">
           <div class="learn-more-container">
             <p class="Fraunces-font uppercase bold learn-more darker-text">Learn more</p>
-            <div id="right-underline" class="learn-more-underline"></div>
+            <div id="right-underline" class="learn-more-underline full-width"></div>
           </div>
         </a>
       </div>
@@ -86,7 +97,7 @@
 
 <!-- third row -->
 
-    <div class="gallery-image last-row" id="cherries">
+    <div class="gallery-image last-row full-width" id="cherries">
       <div class="last-row-text">
         <h2 class="Fraunces-font bold last-row-title design-text">Graphic design</h2>
         <p class="design-text">
@@ -95,7 +106,7 @@
       </div>
     </div>
 
-    <div class="gallery-image last-row" id="orange">
+    <div class="gallery-image last-row full-width" id="orange">
       <div class="last-row-text">
         <h2 class="Fraunces-font bold last-row-title photography-text">Photography</h2>
         <p class="photography-text">
@@ -163,7 +174,7 @@
       <img src="logo footer.svg" alt="logo footer" />
     </div>
     <div class="footer-link">
-      <ul class="footer-links-list">
+      <ul class="footer-links-list text-center">
         <a href="" target="_blank" rel="noopener"><li>About</li></a>
         <a href="" target="_blank" rel="noopener"><li>Services</li></a>
         <a href="" target="_blank" rel="noopener"><li>Projects</li></a>

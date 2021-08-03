@@ -1,0 +1,133 @@
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gallery-item {
+    height: 532px;
+}
+
+.gallery-text {
+    position: relative;
+    top: 21.5%;
+    width: 62.5%;
+    line-height: 1.75em;
+    font-weight: 400;
+}
+
+.gallery-title {
+    margin: 0.75em 0em;
+}
+
+.text-item {
+    background-color: #fffbf8;
+}
+
+.gallery-image {
+    background-position: center;
+    background-size: cover;
+}
+
+.learn-more {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding: 0em 0.5em;
+    font-size: 14px;
+}
+
+.learn-more-underline {
+    position: relative;
+    top: -0.7em;
+    height: 8px;
+    border-radius: 4px;
+}
+
+.learn-more-container {
+    position: relative;
+    top: 2em;
+    width: 7.4em;
+}
+
+.learn-more-container #left-underline, .learn-more-container #right-underline {
+    transition: 0.1s;
+}
+
+.learn-more-container:hover #left-underline {
+    background-color: rgba(250, 212, 0, 100%);
+    transition: 0.1s;
+}
+
+.learn-more-container:hover #right-underline {
+    background-color: rgba(254, 120, 103, 100%);
+    transition: 0.1s;
+}
+
+/* gallery third row special style */
+
+.last-row {
+    height: 530px;
+}
+
+.last-row-text {
+    position: relative;
+    top: 60%;
+    margin: 0 auto;
+    width: 50%;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.75em;
+}
+
+.last-row-title {
+    font-size: 1.5rem;
+    margin: 0.75em 0em;
+}
+
+.design-text {
+    color: #25564B;
+}
+
+.photography-text {
+    color: #19536B;
+}
+
+#egg {
+    background-image: url('../images/desktop/image-transform.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#wine {
+    background-image: url('../images/desktop/image-stand-out.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cherries {
+    background-image: url('../images/desktop/image-graphic-design.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#orange {
+    background-image: url('../images/desktop/image-photography.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#text-left {
+    left: 23%;
+}
+
+#text-right {
+    left: 15%;
+}
+
+#left-underline {
+    background-color: rgba(250, 212, 0, 30%);
+}
+
+#right-underline {
+    background-color: rgba(254, 120, 103, 30%);
+}

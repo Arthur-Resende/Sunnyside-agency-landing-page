@@ -1,0 +1,44 @@
+.navbar {
+    color: #ffffff;
+    position: fixed;
+    justify-content: space-between;
+    height: 5rem;
+    width: 92.5%;
+    left: 3.75%;
+}
+
+.navlinks {
+    justify-content: space-between;
+    width: 35%;
+}
+
+.logo img{
+    width: 150px;
+    height: auto;
+}
+
+@media screen and (max-width: 375px) {
+    .navbar {
+        width: 86%;
+        left: 7%;
+    }
+
+    .horizontal-line {
+        height: 2px;
+        width: 25px;
+        margin: 6px 0px;
+        background-color: #ffffff;
+    }
+
+    .navlinks {
+        flex-direction: column;
+    }
+
+    .logo img{
+        width: 120px;
+    }
+
+    .hide {
+        display: none;
+    }
+}
