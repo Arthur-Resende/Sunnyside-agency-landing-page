@@ -18,7 +18,7 @@
     width: 2.5%;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
     .we-are-creatives {
         background-size: 750px;
         height: 66vh;

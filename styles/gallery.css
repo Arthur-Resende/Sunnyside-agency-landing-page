@@ -132,7 +132,7 @@
     background-color: rgba(254, 120, 103, 30%);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
     html {
         font-size: 18px;
     }
