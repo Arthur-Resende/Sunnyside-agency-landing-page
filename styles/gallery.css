@@ -131,3 +131,66 @@
 #right-underline {
     background-color: rgba(254, 120, 103, 30%);
 }
+
+@media screen and (max-width: 375px) {
+    html {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gallery-item {
+        height: 83vw;
+    }
+
+    .gallery-text {
+        position: static;
+        margin: 16% auto 13.5% auto;
+        width: 85%;
+        text-align: center;
+        /* padding-top: 10%; */
+    }
+
+    .learn-more-container {
+        position: static;
+        margin: 8% auto 0% auto;
+        width: max-content;
+    }
+
+    .learn-more {
+        font-size: 16px;
+        letter-spacing: 0.01em;
+    }
+
+    .first-item {
+        order: 1;
+    }
+
+    .second-item {
+        order: 2;
+    }
+
+    .third-item {
+        order: 3;
+    }
+
+    .forth-item {
+        order: 4;
+    }
+
+    #egg {
+        background-size: cover;
+    }
+
+    /* #text-left {
+        left: 5%;
+    } */
+}
