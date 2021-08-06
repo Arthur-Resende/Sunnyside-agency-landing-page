@@ -44,3 +44,41 @@
     font-size: 13px;
     font-weight: 400;
 }
+
+@media screen and (max-width: 400px) {
+    h3 {
+        font-size: 17px;
+    }
+
+    .testimonials {
+        height: auto;
+        padding: 17% 0% 8%;
+    }
+    
+    .testimonials-container {
+        /* top: 7.5%; */
+        top: 0%;
+        /* margin: 17% auto; */
+    }
+
+    .reviews {
+        flex-direction: column;
+    }
+
+    .individual-review {
+        width: 87.5%;
+        margin: 10% auto 5% auto;
+    }
+
+    .review-image {
+        width: 22.5%;
+    }
+
+    .review-text {
+        margin-top: 10%;
+    }
+
+    .review-name {
+        margin-top: 10%;
+    }
+}
