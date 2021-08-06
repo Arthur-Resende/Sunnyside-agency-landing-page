@@ -133,6 +133,10 @@
 }
 
 @media screen and (max-width: 400px) {
+    /* * {
+        border: solid black 1px;
+    } */
+
     html {
         font-size: 18px;
     }
@@ -170,6 +174,21 @@
         letter-spacing: 0.01em;
     }
 
+    .last-row {
+        height: 600px;
+    }
+
+    .last-row-text {
+        top: 62%;
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .last-row-title {
+        font-size: 1.5rem;
+        text-transform: capitalize;
+    }
+
     .first-item {
         order: 1;
     }
@@ -184,6 +203,14 @@
 
     .forth-item {
         order: 4;
+    }
+
+    .fifth-item {
+        order: 5;
+    }
+
+    .sixth-item {
+        order: 6;
     }
 
     #egg {
