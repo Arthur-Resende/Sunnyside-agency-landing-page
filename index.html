@@ -6,6 +6,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
+  <script src="app.js"></script>
+
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="styles/navbar.css">
   <link rel="stylesheet" href="styles/we-are-creatives.css">
@@ -29,12 +31,12 @@
     <div class="flex vertical-center logo">
       <img src="images/logo.svg" alt="sunnyside logo" />
     </div>
-    <div class="navtoggle vertical-center">
+    <div class="navtoggle vertical-center" onclick="toggleNavbar()">
       <div class="horizontal-line"></div>
       <div class="horizontal-line"></div>
       <div class="horizontal-line"></div>
     </div>
-    <div class="navlinks flex vertical-center hide">
+    <div class="navlinks flex vertical-center hide" id="navlinks-toggle">
       <a href="#">About</a>
       <a href="#">Services</a>
       <a href="#">Projects</a>
